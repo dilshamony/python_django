@@ -1,0 +1,26 @@
+h1{
+    text-align:center;
+    font-style: italic;
+}
+.main{
+    width: 200px;
+    height: 600px;
+    border: 1px solid rgb(48, 66, 228);
+    text-align: center;
+    float: left;
+    background-color: rgb(37, 235, 120);
+    margin-left: 1%;
+}
+.first{
+    background-color: crimson;
+    margin-left: 15%;
+}
+.second{
+    background-color: darkblue;
+}
+.third{
+    background-color: darkgreen;
+}
+.fourth{
+    background-color: darkred;
+}

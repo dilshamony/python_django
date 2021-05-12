@@ -1,0 +1,18 @@
+a{
+    color: black;
+   
+}
+h1{
+    color: blueviolet;
+}
+.edit{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px rgb(238, 130, 215);
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    padding: 15px 35px;
+}

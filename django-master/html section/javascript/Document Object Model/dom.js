@@ -1,0 +1,5 @@
+var Person={
+    name="ajay"
+}
+
+

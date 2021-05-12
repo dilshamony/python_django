@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="calculator.css">
+  <script src="calculator.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="calc">
+      <div class="display">
+        <input type="text" class="displayBox" placeholder="0">
+        <div class="display-main"> 
+        </div>
+      </div>
+  
+      <div class="row">
+        <button class="button ac">ac</button>
+        <button class="button ce" onclick="backspace()" >ce</button>
+        <button class="button div" onclick="displayText('/')">%</button>
+        <button class="button mult" onclick="displayText('*')">x</button>
+      </div>
+  
+      <div class="row">
+        <button class="button seven" onclick="displayText('7')">7</button>
+        <button class="button eight" onclick="displayText('8')">8</button>
+        <button class="button nine" onclick="displayText('9')">9</button>
+        <button class="button minus" onclick="displayText('-')">−</button>
+      </div>
+
+      <div class="row">
+        <button class="button four" onclick="displayText('4')">4</button>
+        <button class="button five" onclick="displayText('5')">5</button>
+        <button class="button six" onclick="displayText('6')">6</button>
+        <button class="button plus" onclick="displayText('+')">+</button>
+      </div>
+  
+      <div class="bottom-row">
+        <div class="left">
+          <div class="row">
+            <button class="button one" onclick="displayText('1')">1</button>
+            <button class="button two" onclick="displayText('2')">2</button>
+            <button class="button three" onclick="displayText('3')">3</button>
+          </div>
+          
+          <div class="row">
+            <button class="button zero" onclick="displayText('0')">0</button>
+            <button class="button dot" onclick="displayText('.')">.</button>
+          </div>
+        </div>
+        
+        <div class="right">
+          <div class="button eq" onclick="calculate()">=</div>
+        </div>
+  
+      </div>
+  
+    </div>
+</body>
+</html>

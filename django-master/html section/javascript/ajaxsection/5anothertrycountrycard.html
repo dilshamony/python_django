@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function fetchCountryData(){
+        var cname=document.querySelector(".cntry").value
+        var request=new XMLHttpRequest()
+        request.open("get",`https://restcountries.eu/rest/v2/name/${cname}?fullText=true`)
+        request.send()
+        request.onreadystatechange=()=>{
+            if(request.readyState==4){
+                if(request.status>=200 & request.status<300){
+                    var dataset=JSON.parse(request.responseText)
+                    console.log(dataset[0].flag);
+                    let uname=dataset[0].name
+                    let currency=dataset[0].currencies[0].name
+                    let pop=dataset[0].population
+                    let flag=dataset[0].flag
+                    var html_data=""
+                    html_data+=`<img src=${flag} class="card-img-top"><h3 class="car-title">${uname}</h3><h6 class="card-"`
+                }
+            }
+        }
+    }
+</script>
+</html>

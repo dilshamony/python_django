@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(196, 237, 100);
+}
+#mainhead{
+    color: black;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 38, 255);
+    background-color: rgb(139, 0, 104);
+}
+.content{
+    color: crimson;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+.first{
+    background-color: darkgreen;
+    border: solid white;
+}
+.second{
+    background-color: darkkhaki;
+    border: solid black;
+}
+.third{
+    background-color: darkseagreen;
+    border: solid rgb(205, 50, 192);
+}

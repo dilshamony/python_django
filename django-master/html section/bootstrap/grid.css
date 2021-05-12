@@ -1,0 +1,16 @@
+/*.one,.two,.three{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+}*/
+.one{
+    border-right: 2px solid salmon;
+    background-color: slateblue;
+}
+.two{
+    background-color: springgreen;
+}
+.three{
+    background-color: tomato;
+}
