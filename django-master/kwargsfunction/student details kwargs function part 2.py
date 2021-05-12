@@ -9,7 +9,7 @@ def get_students(id):
         print(students[id]["name"])
 get_students(1002)
 
-#
+
 
 def get_students(**kwargs):#kwargs={id:1001,property:course}
     id=kwargs["id"]#1001
